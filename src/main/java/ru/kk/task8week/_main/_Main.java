@@ -4,6 +4,7 @@ import ru.kk.task8week.service.BubbleSort;
 
 import java.util.Arrays;
 
+import static ru.kk.task8week.service.MergeSort.mergeSort;
 import static ru.kk.task8week.service.QuickSort.quicksort;
 
 public class _Main {
@@ -38,5 +39,11 @@ public class _Main {
         for (String[] student : students) {
             System.out.println(Arrays.toString(student));
         }
+        String[] words = {"cat", "orange", "elephant", "bird"};
+        mergeSort(words);
+        for (String word : words) {
+            System.out.println(word);
+        }
+        //System.out.println(Arrays.toString(words));
     }
 }
