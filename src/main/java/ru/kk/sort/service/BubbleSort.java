@@ -1,4 +1,4 @@
-package ru.kk.task8week.service;
+package ru.kk.sort.service;
 
 public class BubbleSort {
     public static void bubblesort(String[][] arr) {

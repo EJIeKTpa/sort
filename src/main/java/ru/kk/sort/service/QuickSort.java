@@ -1,4 +1,4 @@
-package ru.kk.task8week.service;
+package ru.kk.sort.service;
 
 public class QuickSort {
     public static void quicksort(String[] arr, int low, int high) {

@@ -1,4 +1,4 @@
-package ru.kk.task8week.service;
+package ru.kk.sort.service;
 
 public class SelectionSort {
     public static void selectionsort(String[] arr) {

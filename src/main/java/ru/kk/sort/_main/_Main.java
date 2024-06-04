@@ -1,13 +1,13 @@
-package ru.kk.task8week._main;
+package ru.kk.sort._main;
 
-import ru.kk.task8week.service.BubbleSort;
+import ru.kk.sort.service.BubbleSort;
 
 import java.util.Arrays;
 
-import static ru.kk.task8week.service.MergeSort.mergeSort;
-import static ru.kk.task8week.service.QuickSort.quicksort;
-import static ru.kk.task8week.service.SelectionSort.selectionsort;
-import static ru.kk.task8week.service.SortByVowelCount.sortbyvowelcount;
+import static ru.kk.sort.service.MergeSort.mergeSort;
+import static ru.kk.sort.service.QuickSort.quicksort;
+import static ru.kk.sort.service.SelectionSort.selectionsort;
+import static ru.kk.sort.service.SortByVowelCount.sortbyvowelcount;
 
 public class _Main {
     public static void main(String[] args) {

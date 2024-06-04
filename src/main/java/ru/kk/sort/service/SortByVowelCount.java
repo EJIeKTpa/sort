@@ -1,4 +1,4 @@
-package ru.kk.task8week.service;
+package ru.kk.sort.service;
 
 import java.util.Arrays;
 
